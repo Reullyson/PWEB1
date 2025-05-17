@@ -9,8 +9,8 @@
 <body>
     <header>
         <?php
-            $nomeCompleto = "SEU NOME COMPLETO"; 
-            $idade = 0;
+            $nomeCompleto = "Eric Reullyson Silva Leite"; 
+            $idade = 20;
             $fotoPerfil = "imagens/sua_foto.jpg"; 
         ?>
         <div class = "perfil">
