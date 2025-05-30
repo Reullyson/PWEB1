@@ -6,15 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
 
-$a = 5;
-$b = 5;
-function soma($a, $b) {
-    return $a + $b;
+<?php
+function elegibilidade($idade) {
+    if ($idade >= 18) {
+        echo "Acesso Liberado";
+    } else {
+        echo "Acesso Negado";
+    }
 }
-echo soma($a, $b);
 
-    ?>
+$idade = 18;
+echo elegibilidade($idade);
+    
+?>
+
 </body>
 </html>

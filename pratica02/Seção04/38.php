@@ -6,15 +6,17 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
 
-$a = 5;
-$b = 5;
-function soma($a, $b) {
-    return $a + $b;
+<?php
+$valor = 1234.56;
+
+function ValorMonetario($valor) {
+    echo $valor = "R$ " . number_format($valor, 2,',', '.');
 }
-echo soma($a, $b);
 
-    ?>
+echo ValorMonetario($valor);
+
+?>
+    
 </body>
 </html>

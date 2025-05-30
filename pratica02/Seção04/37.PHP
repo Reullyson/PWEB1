@@ -6,15 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
 
-$a = 5;
-$b = 5;
-function soma($a, $b) {
-    return $a + $b;
+<?php
+$nome = "reullyson";
+function NomeUsuario($nome) {
+    echo "seja bem-vindo: ". $nome;
 }
-echo soma($a, $b);
+echo NomeUsuario($nome);
 
-    ?>
+?>
+    
 </body>
 </html>

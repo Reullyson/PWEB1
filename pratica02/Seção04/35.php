@@ -6,15 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
 
-$a = 5;
-$b = 5;
-function soma($a, $b) {
-    return $a + $b;
+<?php
+function MediaAluno($n1, $n2) {
+    return ($n1 + $n2) / 2;
 }
-echo soma($a, $b);
+$n1 = 7;
+$n2 = 7;
 
+$MediaFinal = MediaAluno($n1, $n2);
+echo "Media final: " . $MediaFinal;
     ?>
 </body>
 </html>
